@@ -32,7 +32,7 @@ Most people on Earth do not know what it is exactly that radiologists do. Many d
 
 Radiology is now so vast that most radiologists end up specializing in one or two organ systems. There is a vast subspecialty of radiology which is concerned with performing complex and lifesaving minimally invasive image-guided procedures, called interventional radiology (IR).
 
-<figure> <img src="assets/img/Slide1.PNG" alt="Radiology Subspecialties" /> <figcaption>Overview of radiology and its subspecialties</figcaption> </figure>
+<figure> <img src="assets/img/Slide1.PNG" alt="Radiology Subspecialties" /> <figcaption>Overview of radiology and its subspecialties. Click to enlarge.</figcaption> </figure>
 
 ## 2. Imagine you are a radiologist at work
 You are sitting at your reporting workstation. In a typical day you will go through 10s if not 100s of different scans of many different imaging modalities. Suppose you are on a busy emergency shift one night and open a CT scan of the abdomen and pelvis to report. It is of a 30 year old patient with severe abdominal pain. When you scroll through the scan you will see it has thousands of images. On each image you will see at least 50 structures, and each of these structures could have 10s to 100s of different things going wrong with it.
