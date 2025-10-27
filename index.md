@@ -9,7 +9,7 @@ description: "20 minute read"
 
 > “I think that if you work as a radiologist, you are like Wile E. Coyote in the cartoon. You’re already over the edge of the cliff, but you haven’t yet looked down. There’s no ground underneath. People should stop training radiologists now. It’s just completely obvious that in five years deep learning is going to do better than radiologists.”
 
-- Geoffrey Hinton, the Godfather of AI and 2024 Nobel prize winner in physics for his work on machine learning and artificial neural networks. Quote dated 24th of November, 2016.[1]
+--Geoffrey Hinton, the Godfather of AI and 2024 Nobel prize winner in physics for his work on machine learning and artificial neural networks. Quote dated 24th of November, 2016.[1]
 
 Hinton said this when I was a third year trainee in radiology. Not many in radiology took AI seriously back then. I proceeded to ignore Hinton (what else could I do), worked in Mumbai’s public and private sector as a radiologist, did a fellowship in musculoskeletal radiology from Netherlands and am now working as a musculoskeletal radiologist in the NHS in England. En route I worked at the Paris Olympics 2024 as a musculoskeletal radiologist where I had my first meaningful and clinically useful experience of using AI in my radiology workflow, using large language models for translating the medical imaging reports across languages for athletes from different countries (which were of course verified before dispatch by radiologists speaking those languages).
 
