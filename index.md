@@ -23,7 +23,7 @@ In my radiology AI journey I have gone through all stages of the Gartner’s hyp
 
 <figure> <img src="assets/img/gartner.jpg" alt="Gartner Hype Cycle" /> <figcaption>Image courtesy: https://www.forbes.com/sites/johnwerner/2024/07/18/the-trough-of-disillusionment-and-four-outliers-on-the-gartner-hype-cycle/</figcaption> </figure>
 
-## 1.	What is radiology?
+## 1.   What is radiology?
    
 Everything in our universe is made up of one of two things, either matter or energy. Radiology in its essence is the applied science of using energy to look at matter.
 
@@ -42,6 +42,8 @@ Critical imaging findings which lead to a diagnosis are also often subtle, hidde
 
 Experienced radiologists are like chess grandmasters, adept at finding recurring patterns on scans and knowing where to look for a certain constellation of findings, having seen thousands of cases of a particular type throughout their career. A study showed radiologists missing a gorilla on a chest CT just because they were not expecting it to be there.[3] Chess grandmasters have been shown to be unable to recreate a chess board in which the pieces are arranged in a random order which does not follow standard patterns in a chess game.[4]
 
+<figure> <img src="assets/img/Slide2.PNG" alt="Gorilla CT and Chess Board" /> <figcaption>83% radiologists missed the gorilla on this CT as it is not a part of the regular imaging patterns seen on scans. Chess grandmasters find it difficult to recall chess pieces arranged randomly on a chess board which do not follow progression patterns of a regular chess game.</figcaption> </figure>
+
 Yet radiology has an even larger number of variations compared with chess as medicine is messy, biology is not math and scans don’t always turn out the way they should. If you are a radiologist you will often come across what are called ‘artifacts’, things which appear on images based on the scanner or a certain tissue’s inherent properties and may sometimes provide clues to the diagnosis, but most often spoil the party and obscure parts of the image. Examples are motion artifacts from the patient moving in the scanner or metal artifacts on an image from a joint prosthesis which blur nearby anatomy.
 
 Our imaging modalities themselves are not 100% in sensitivity, specificity, positive predictive value and negative predictive value, because of which an AI trained on medical imaging can never itself be 100% accurate. But maybe that is not the goal of AI companies, they might not be after 100% accuracy. They just want to create an AI which matches 
@@ -50,6 +52,8 @@ or surpasses radiologists in accuracy. Let’s see what training AI models in ra
 ## 3. How do you train your own radiology AI model?
 
 To demonstrate how AI radiology models are trained today, I made a flow-chart showing all the steps which should make the realities of AI in radiology clear, along with the limitations and challenges faced.
+
+<figure> <img src="assets/img/Slide3.PNG" alt="AI Training Pathway" /> <figcaption>Pathway for training an AI model for diagnosing acute appendicitis on CT showing the realities and required costs.</figcaption> </figure>
 
 ## 4. What about radiology foundation models?
 
@@ -62,6 +66,8 @@ This leads us to question whether transformer-based vision language models are e
 ## 5. The reality of AI in radiology today
 
 Many radiology AI models are getting US FDA clearance. FDA clearance is completely different from FDA approval, and does not at all mean the models are clinically safe. It is worthwhile for radiologists in clinical practice to be aware of this difference when evaluating AI tools for trial in their practice.
+
+<figure> <img src="assets/img/Slide4.PNG" alt="FDA Clearance" /> </figure>
 
 Many published papers touting the high sensitivity and specificity of these AI tools have major conflicts of interest, with people from the AI companies who trained these models themselves being listed as co-authors on the papers. An even more concerning trend is the authors having a clear conflict of interest by being a part of the AI company which trained the model, but not disclosing this in the published paper. Radiologists looking to deploy an AI tool in their practice are encouraged to read the literature on the model thoroughly before investing money, and the CLAIM checklist is a good starting point to become familiar with how to evaluate AI tools.[7]
 
@@ -103,7 +109,9 @@ The very nature and ordered structure of math and coding makes it accessible for
 Still software engineers doing truly innovative work and working on novel applications in robotics, military and defence infrastructure, cybersecurity, aerospace and other advanced technologies find LLMs unable to generate any meaningful code for problems which require novel solutions. LLMs are able to create websites and generic apps and games as there is a lot of the code available as training data online. When something is not in their training data, the models fail.
 
 A study by Microsoft on medical tasks found LLMs easily misled and giving wrong answers when the phrasing of the questions was slightly altered from what was earlier available in the online dataset.[10] A recent paper by Dr. Suvrankar Datta and team from New Delhi, India shows the strongest models of today performing much below the level of radiology trainees, and not even matching 50% of the accuracy of radiology consultants.[11]
- 
+
+<figure> <img src="assets/img/radle.jpg" alt="RadLE Study" /> <figcaption>Image courtesy: Datta S. et al. Radiology's Last Exam (RadLE): Benchmarking Frontier Multimodal AI Against Human Experts and a Taxonomy of Visual Reasoning Errors in Radiology.</figcaption> </figure>
+
 This is not an issue which will be solved in a few years, as the reason for the models’ poor performance lies at the very heart of what these models are and how they are trained. The hurdles are critical, like lack of available massive scale high quality radiology data, the models not really reasoning but doing pattern-matching, lack of advances in computer vision efficiency despite the world’s best AI researchers trying for more than a decade and the fundamental problem of hallucinations which is nowhere near being solved.
 
 Hallucinations may not be a problem in low-stakes pursuits like vibe coding apps and games. But in life-or-death high stakes environments like healthcare, even 1 hallucination in 1000 cases is a hallucination too many and may result in real harm to patients, even death. This is the reason why large language models and anything based on them will not find acceptance in healthcare as hallucinations are a fundamental part of the model architecture. It is also funny that there was a recent attempt to train a surgical robot to perform autonomous surgery ‘powered by same architecture as ChatGPT’. What happens when the model hallucinates mid-surgery? Probably general purpose humanoid robotics powered by LLMs today is as big a bubble as AI (not the narrow task industrial robots and surgical robots already in practice which have actual proven uses).
@@ -124,10 +132,17 @@ There also appears to be a shared mass delusion on social media (folie a deux) a
 
 Another genuinely concerning effect of the way AI has been deployed is apps to generate fake videos and fake images which will most likely spell the end of the traditional algorithm driven social media as we know it. There is a dead internet theory which says there will come a point when most interactions online are between AI bots and most content online including text, images, videos will be generated by AI and not by humans. This looks increasingly likely to become a reality with each passing day. Future generations will probably look at the combination of unrestricted algorithm powered social media use plus today’s AI chatbots as a crazy era, the addictive and harmful equivalent of how we see smoking today.
 
+
+<figure> <img src="assets/img/Slide5.PNG" alt="AI Progress Flowchart" /> <figcaption>Flowchart for the future of AI progress if it stays on the current path of statistical intelligence and another (as of today fictional) path if true cognitive intelligence is ever achieved.</figcaption> </figure>
+
 ## Conclusion
 
 For medical students interested in radiology, you should absolutely go ahead and choose radiology today if you get the opportunity. Automation and replacement of the profession is nowhere on the horizon, and may not even be achievable for decades. It is easy to make casual remarks saying “AI will replace radiologists”, but difficult to study the subject in detail in order to write a nuanced long-form article explaining the reality. Such statements also cause genuine harm by discouraging students from choosing a profession which may have been more suitable for them rather than other less suitable paths.
 I hope AI researchers are able to overcome today’s LLM hype and look at other machine learning paradigms beyond deep learning for healthcare, ones which are not a black box, which are transparent to evaluate, integrate continuous learning in the model’s architecture, are ethical to train, can be safely deployed and most importantly make a meaningful contribution to patient care. Our patients deserve it.
+
+<figure> <img src="assets/img/Slide6.PNG" alt="AI Replacement Flowchart" /> <figcaption>Flowchart for when someone says "AI will replace radiologists"</figcaption> </figure>
+
+
 
 ## References
 
