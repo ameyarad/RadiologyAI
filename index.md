@@ -3,7 +3,9 @@ layout: default
 title: "Should I have become a radiologist? The hype versus reality of radiology AI, AI in general and the road ahead"
 permalink: /
 description: "Ameya Kawthalkar"
-image: /RadiologyAI/assets/img/Slide6.PNG
+image: /assets/img/Slide6.PNG
+keywords: radiology, AI, artificial intelligence, healthcare AI, medical imaging, radiology AI, machine learning, deep learning, radiologist, medical AI, healthcare technology
+author: Ameya Kawthalkar
 ---
 
 *This article is based on my talk on the hype versus reality of radiology AI for the Radiology Education Foundation (REF), India on the first Sunday of October 2025, with a few additions.*
