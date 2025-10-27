@@ -24,3 +24,4 @@ pandoc-*.zip
 .vscode/
 *.code-workspace
 replit.md
+.replit
