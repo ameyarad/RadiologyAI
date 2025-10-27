@@ -1,5 +1,9 @@
-title: "Should I have become a radiologist? The hype versus reality of radiology AI, AI in general and the road ahead" permalink: /
-
+---
+layout: home
+title: "Should I have become a radiologist? The hype versus reality of radiology AI, AI in general and the road ahead"
+permalink: /
+description: "20 minute read"
+---
 This article is based on my talk on the hype versus reality of radiology AI for the Radiology Education Foundation (REF), India on the first Sunday of October 2025, with a few additions.
 “I think that if you work as a radiologist, you are like Wile E. Coyote in the cartoon. You’re already over the edge of the cliff, but you haven’t yet looked down. There’s no ground underneath. People should stop training radiologists now. It’s just completely obvious that in five years deep learning is going to do better than radiologists.”
 - Geoffrey Hinton, the Godfather of AI and 2024 Nobel prize winner in physics for his work on machine learning and artificial neural networks. Quote dated 24th of November, 2016.[1]
