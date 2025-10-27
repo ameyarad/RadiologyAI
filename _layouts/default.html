@@ -12,23 +12,24 @@
     <![endif]-->
     {% include head-custom.html %}
     
-    <!-- Medium Zoom CSS -->
+    <!-- PhotoSwipe CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.css">
     <style>
-      .medium-zoom-overlay {
-        background: rgba(0, 0, 0, 0.9) !important;
-      }
-      
-      .medium-zoom-image--opened {
-        cursor: zoom-out;
-      }
-      
       img {
         cursor: zoom-in;
-        transition: transform 0.3s ease;
+        transition: opacity 0.3s ease;
       }
       
       img:hover {
         opacity: 0.9;
+      }
+      
+      .pswp__img {
+        cursor: grab;
+      }
+      
+      .pswp__img:active {
+        cursor: grabbing;
       }
     </style>
   </head>
@@ -73,16 +74,57 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     
-    <!-- Medium Zoom Library -->
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
-    <script>
-      // Initialize medium-zoom on all images
+    <!-- PhotoSwipe Library -->
+    <script type="module">
+      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe-lightbox.esm.js';
+      import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.esm.js';
+      
+      // Wait for DOM to load
       document.addEventListener('DOMContentLoaded', function() {
-        mediumZoom('img', {
-          margin: 24,
-          background: 'rgba(0, 0, 0, 0.9)',
-          scrollOffset: 0
+        // Wrap all content images for PhotoSwipe
+        const contentImages = document.querySelectorAll('section img');
+        
+        contentImages.forEach((img) => {
+          // Skip if already wrapped
+          if (img.parentElement.tagName === 'A' && img.parentElement.hasAttribute('data-pswp-width')) {
+            return;
+          }
+          
+          // Create wrapper link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.setAttribute('data-pswp-width', img.naturalWidth || 1200);
+          link.setAttribute('data-pswp-height', img.naturalHeight || 800);
+          link.setAttribute('target', '_blank');
+          
+          // Wrap image
+          img.parentNode.insertBefore(link, img);
+          link.appendChild(img);
         });
+        
+        // Initialize PhotoSwipe
+        const lightbox = new PhotoSwipeLightbox({
+          gallery: 'section',
+          children: 'a[data-pswp-width]',
+          pswpModule: PhotoSwipe,
+          bgOpacity: 0.9,
+          padding: { top: 20, bottom: 20, left: 20, right: 20 },
+          // Enable pinch to zoom and pan
+          pinchToClose: true,
+          closeOnVerticalDrag: true,
+          // Double tap to zoom
+          doubleTapAction: 'zoom',
+          // Click action
+          clickToCloseNonZoomable: true,
+          // Zoom settings
+          initialZoomLevel: 'fit',
+          secondaryZoomLevel: 2,
+          maxZoomLevel: 4,
+          // Mobile specific
+          wheelToZoom: true
+        });
+        
+        lightbox.init();
       });
     </script>
   </body>
