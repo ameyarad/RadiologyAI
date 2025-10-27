@@ -147,15 +147,15 @@ I hope AI researchers are able to overcome today’s LLM hype and look at other 
 
 ## References
 
-1. https://www.datasciencecentral.com/the-ai-radiologists-replacement-saga-dont-be-misled-by-the-scaremongering-science-v-s-science-fiction/
-2. Wilhelm: free and open source radiology reporting assistant. www.wilhelmai.net
-3. Drew T, Võ ML, Wolfe JM. The invisible gorilla strikes again: sustained inattentional blindness in expert observers. Psychol Sci. 2013 Sep;24(9):1848–53. doi: 10.1177/0956797613479386. Epub 2013 Jul 17. PMID: 23863753; PMCID: PMC3964612.
-4. Gobet F, Simon HA. Recall of random and distorted chess positions: implications for the theory of expertise. Mem Cognit. 1996 Jul;24(4):493–503. doi: 10.3758/bf03200937. PMID: 8757497.
-5. Wu, C., Zhang, X., Zhang, Y. et al. Towards generalist foundation model for radiology by leveraging web-scale 2D&3D medical data. https://doi.org/10.48550/arXiv.2308.02463
-6. https://doi.org/10.48550/arXiv.2508.17524
-7. Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024 Jul;6(4):e240300. doi: 10.1148/ryai.240300. PMID: 38809149; PMCID: PMC11304031.
-8. van Winkel SL, Peters J, Janssen N, Kroes J, Loehrer EA, Gommers J, Sechopoulos I, de Munck L, Teuwen J, Broeders M, Karssemeijer N, Mann RM. AI as an independent second reader in detection of clinically relevant breast cancers within a population-based screening programme in the Netherlands: a retrospective cohort study. Lancet Digit Health. 2025 Aug;7(8):100882. doi: 10.1016/j.landig.2025.100882. Epub 2025 Aug 14. PMID: 40816977.
-9. Andersen M, Richman IB, Kunst N. Long-Term Outcomes and Cost-Effectiveness of Artificial Intelligence for Breast Cancer Screening: A Modeling Study. Value Health. 2025 Sep 20:S1098–3015(25)02560–4. doi: 10.1016/j.jval.2025.09.005. Epub ahead of print. PMID: 40983310.
-10. https://doi.org/10.48550/arXiv.2509.18234
-11. Datta S. et al. Radiology’s Last Exam (RadLE): Benchmarking Frontier Multimodal AI Against Human Experts and a Taxonomy of Visual Reasoning Errors in Radiology. https://doi.org/10.48550/arXiv.2509.25559
+1. [The AI Radiologists Replacement Saga](https://www.datasciencecentral.com/the-ai-radiologists-replacement-saga-dont-be-misled-by-the-scaremongering-science-v-s-science-fiction/)
+2. Wilhelm: free and open source radiology reporting assistant. [www.wilhelmai.net](https://www.wilhelmai.net)
+3. Drew T, Võ ML, Wolfe JM. The invisible gorilla strikes again: sustained inattentional blindness in expert observers. Psychol Sci. 2013 Sep;24(9):1848–53. [doi: 10.1177/0956797613479386](https://doi.org/10.1177/0956797613479386). Epub 2013 Jul 17. PMID: 23863753; PMCID: PMC3964612.
+4. Gobet F, Simon HA. Recall of random and distorted chess positions: implications for the theory of expertise. Mem Cognit. 1996 Jul;24(4):493–503. [doi: 10.3758/bf03200937](https://doi.org/10.3758/bf03200937). PMID: 8757497.
+5. Wu, C., Zhang, X., Zhang, Y. et al. Towards generalist foundation model for radiology by leveraging web-scale 2D&3D medical data. [doi: 10.48550/arXiv.2308.02463](https://doi.org/10.48550/arXiv.2308.02463)
+6. [doi: 10.48550/arXiv.2508.17524](https://doi.org/10.48550/arXiv.2508.17524)
+7. Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024 Jul;6(4):e240300. [doi: 10.1148/ryai.240300](https://doi.org/10.1148/ryai.240300). PMID: 38809149; PMCID: PMC11304031.
+8. van Winkel SL, Peters J, Janssen N, Kroes J, Loehrer EA, Gommers J, Sechopoulos I, de Munck L, Teuwen J, Broeders M, Karssemeijer N, Mann RM. AI as an independent second reader in detection of clinically relevant breast cancers within a population-based screening programme in the Netherlands: a retrospective cohort study. Lancet Digit Health. 2025 Aug;7(8):100882. [doi: 10.1016/j.landig.2025.100882](https://doi.org/10.1016/j.landig.2025.100882). Epub 2025 Aug 14. PMID: 40816977.
+9. Andersen M, Richman IB, Kunst N. Long-Term Outcomes and Cost-Effectiveness of Artificial Intelligence for Breast Cancer Screening: A Modeling Study. Value Health. 2025 Sep 20:S1098–3015(25)02560–4. [doi: 10.1016/j.jval.2025.09.005](https://doi.org/10.1016/j.jval.2025.09.005). Epub ahead of print. PMID: 40983310.
+10. [doi: 10.48550/arXiv.2509.18234](https://doi.org/10.48550/arXiv.2509.18234)
+11. Datta S. et al. Radiology’s Last Exam (RadLE): Benchmarking Frontier Multimodal AI Against Human Experts and a Taxonomy of Visual Reasoning Errors in Radiology. [doi: 10.48550/arXiv.2509.25559](https://doi.org/10.48550/arXiv.2509.25559)
 
