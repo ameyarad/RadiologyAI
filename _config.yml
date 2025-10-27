@@ -1,0 +1,10 @@
+title: "Radiology AI Hype"
+description: "Exploring the hype and reality of artificial intelligence in radiology."
+theme: minima
+
+# Update these once the repository name and username are final.
+url: "" # Set to "https://<github-username>.github.io" after publishing
+baseurl: "" # e.g. "/radiologyai" for project sites
+
+plugins:
+  - jekyll-feed

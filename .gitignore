@@ -1,0 +1,25 @@
+# Build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/bundle/
+
+# System files
+Thumbs.db
+*.log
+*.tmp
+*.lock
+!Gemfile.lock
+
+# Pandoc artifacts
+pandoc/
+pandoc-*.zip
+
+# Ruby / bundler artifacts
+.ruby-version
+
+# VS Code / editor cruft
+.vscode/
+*.code-workspace
