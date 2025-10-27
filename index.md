@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Should I have become a radiologist? The hype versus reality of radiology AI, AI in general and the road ahead"
 permalink: /
 description: "20 minute read"
