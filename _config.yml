@@ -3,7 +3,7 @@ description: "20 minute read"
 theme: minima
 
 url: "https://ameyarad.github.io"
-baseurl: "/radiologyai"
+baseurl: "/RadiologyAI"
 
 plugins:
   - jekyll-feed
