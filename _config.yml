@@ -1,9 +1,12 @@
 title: "Ameya's Blog"
 description: "20 minute read"
-theme: minimal
+theme: jekyll-theme-minimal
 
 url: "https://ameyarad.github.io"
 baseurl: "/RadiologyAI"
 
 plugins:
   - jekyll-feed
+
+host: 0.0.0.0
+port: 5000
