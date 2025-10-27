@@ -2,9 +2,8 @@ title: "Should I have become a radiologist? The hype versus reality of radiology
 description: "20 minute read"
 theme: minima
 
-# Update these once the repository name and username are final.
-url: "" # Set to "https://<github-username>.github.io" after publishing
-baseurl: "" # e.g. "/radiologyai" for project sites
+url: "https://ameyarad.github.io"
+baseurl: "/radiologyai"
 
 plugins:
   - jekyll-feed
