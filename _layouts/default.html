@@ -208,7 +208,6 @@
     {% if page.title %}
     <div class="article-title-wrapper">
       <h1>{{ page.title }}</h1>
-      <div class="article-subtitle">Ameya Kawthalkar</div>
     </div>
     {% endif %}
     <div class="wrapper">
@@ -218,21 +217,6 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <div id="toc">
-          <h3>Table of Contents</h3>
-          <ul>
-            <li><a href="#what-is-radiology">1. What is radiology?</a></li>
-            <li><a href="#imagine-you-are-a-radiologist-at-work">2. Imagine you are a radiologist at work</a></li>
-            <li><a href="#how-do-you-train-your-own-radiology-ai-model">3. How do you train your own radiology AI model?</a></li>
-            <li><a href="#what-about-radiology-foundation-models">4. What about radiology foundation models?</a></li>
-            <li><a href="#the-reality-of-ai-in-radiology-today">5. The reality of AI in radiology today</a></li>
-            <li><a href="#deep-learning-models-are-not-actually-reasoning">6. Deep learning models are not actually reasoning</a></li>
-            <li><a href="#harmful-effects-of-the-ai-hype-on-radiology-education-and-on-education-in-general">7. Harmful effects of the AI hype on radiology education</a></li>
-            <li><a href="#conclusion">Conclusion</a></li>
-            <li><a href="#references">References</a></li>
-          </ul>
-        </div>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
